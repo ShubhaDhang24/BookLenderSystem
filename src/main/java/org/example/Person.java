@@ -4,6 +4,13 @@ public class Person {
     private  int personId;
     private String firstName,lastName;
 
+    public String loanBook(String Book)
+    {
+        return Book;
+    }
+
+
+
     public int getPersonId() {
         return personId;
     }
